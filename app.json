@@ -11,7 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#0A0A0F"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.pos.shop",
@@ -25,10 +27,18 @@
         "backgroundColor": "#0A0A0F"
       },
       "package": "com.pos.shop",
-      "permissions": ["CAMERA", "VIBRATE"]
+      "permissions": [
+        "CAMERA",
+        "VIBRATE"
+      ]
     },
     "plugins": [
-      ["expo-camera", { "cameraPermission": "ใช้กล้องเพื่อสแกนบาร์โค้ดสินค้า" }],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "ใช้กล้องเพื่อสแกนบาร์โค้ดสินค้า"
+        }
+      ],
       "expo-font",
       [
         "expo-sqlite",
@@ -36,6 +46,12 @@
           "enableFTS": true
         }
       ]
-    ]
+    ],
+    "owner": "phakdy",
+    "extra": {
+      "eas": {
+        "projectId": "5ba63cbf-a34a-4b68-8e6b-22fae0f27469"
+      }
+    }
   }
 }
