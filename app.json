@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "POS ร้านค้า",
-    "slug": "pos-app",
+    "slug": "pos-",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
