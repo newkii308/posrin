@@ -39,13 +39,7 @@
           "cameraPermission": "ใช้กล้องเพื่อสแกนบาร์โค้ดสินค้า"
         }
       ],
-      "expo-font",
-      [
-        "expo-sqlite",
-        {
-          "enableFTS": true
-        }
-      ]
+      "expo-font"
     ],
     "owner": "phakdy",
     "extra": {
